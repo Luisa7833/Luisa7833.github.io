@@ -182,7 +182,11 @@ sub {
  */
 
 img {
-  border: 0;
+  border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    height: 225px;
+    width: 213px;
 }
 
 /**
